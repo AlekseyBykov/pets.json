@@ -1,0 +1,13 @@
+{
+  "firstName": "Josh",
+  "lastName": "Juneau",
+  "book": {
+    "isbn": "978-1-4302-6827-7",
+    "title": "Java 8 Recipes",
+    "pages": 640
+  },
+  "links": [
+    "https://www.amazon.com/Java-8-Recipes-Josh-Juneau/dp/1430268271",
+    "https://www.apress.com/gp/book/9781484235935"
+  ]
+}

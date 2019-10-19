@@ -18,7 +18,8 @@ import java.util.List;
 import static org.hamcrest.CoreMatchers.hasItems;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.collection.IsCollectionWithSize.hasSize;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 /**
  * @author  aleksey.n.bykov@gmail.com
@@ -37,7 +38,7 @@ class JacksonParserTest {
 
     @Test
     @SneakyThrows
-    @DisplayName("")
+    @DisplayName("Parse JSON")
     void testParseJson() {
 
         ObjectMapper objectMapper = new ObjectMapper();

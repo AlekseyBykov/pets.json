@@ -1,0 +1,20 @@
+[
+  {
+    "product_name": "Product A",
+    "supplier": "Supplier A",
+    "quantity": 1,
+    "unit_cost": 2.33
+  },
+  {
+    "product_name": "Product B",
+    "supplier": "Supplier B",
+    "quantity": 4,
+    "unit_cost": 5.66
+  },
+  {
+    "product_name": "Product C",
+    "supplier": "Supplier C",
+    "quantity": 7,
+    "unit_cost": 8.9
+  }
+]

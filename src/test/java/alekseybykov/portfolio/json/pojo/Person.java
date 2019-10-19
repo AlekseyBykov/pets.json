@@ -3,8 +3,9 @@
 //
 package alekseybykov.portfolio.json.pojo;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import java.util.List;
@@ -13,13 +14,20 @@ import java.util.List;
  * @author  aleksey.n.bykov@gmail.com
  * @version 2019-10-18
  */
-@Data
+@Getter
 @NoArgsConstructor
 @AllArgsConstructor
 public class Person {
 
+    @JsonProperty("firstName")
     private String firstName;
+
+    @JsonProperty("lastName")
     private String lastName;
+
+    @JsonProperty("book")
     private Book book;
-    List<String> links;
+
+    @JsonProperty("links")
+    private List<String> links;
 }

@@ -6,14 +6,14 @@ package alekseybykov.portfolio.json.pojo;
 import com.google.gson.annotations.SerializedName;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 /**
  * @author  aleksey.n.bykov@gmail.com
  * @version 2019-10-18
  */
-@Data
+@Getter
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor

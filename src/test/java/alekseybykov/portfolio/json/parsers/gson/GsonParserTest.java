@@ -1,6 +1,3 @@
-//
-// Feel free to use these solutions in your work.
-//
 package alekseybykov.portfolio.json.parsers.gson;
 
 import alekseybykov.portfolio.json.pojo.Product;
@@ -21,10 +18,6 @@ import java.util.Arrays;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-/**
- * @author  aleksey.n.bykov@gmail.com
- * @version 2019-10-18
- */
 @DisplayName("Tests for parsing JSON by using Gson library")
 class GsonParserTest {
 

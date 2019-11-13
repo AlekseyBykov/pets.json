@@ -1,6 +1,3 @@
-//
-// Feel free to use these solutions in your work.
-//
 package alekseybykov.portfolio.json.pojo;
 
 import com.google.gson.annotations.SerializedName;
@@ -9,10 +6,6 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-/**
- * @author  aleksey.n.bykov@gmail.com
- * @version 2019-10-18
- */
 @Getter
 @Builder
 @NoArgsConstructor

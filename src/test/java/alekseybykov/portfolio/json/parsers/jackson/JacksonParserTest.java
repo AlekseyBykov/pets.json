@@ -1,6 +1,3 @@
-//
-// Feel free to use these solutions in your work.
-//
 package alekseybykov.portfolio.json.parsers.jackson;
 
 import alekseybykov.portfolio.json.pojo.Book;
@@ -21,10 +18,6 @@ import static org.hamcrest.collection.IsCollectionWithSize.hasSize;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-/**
- * @author  aleksey.n.bykov@gmail.com
- * @version 2019-10-18
- */
 @DisplayName("Tests for parsing JSON by using Jackson library")
 class JacksonParserTest {
 

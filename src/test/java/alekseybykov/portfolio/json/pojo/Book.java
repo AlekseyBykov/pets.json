@@ -5,6 +5,10 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+/**
+ * @author Aleksey Bykov
+ * @since 18.10.2019
+ */
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor

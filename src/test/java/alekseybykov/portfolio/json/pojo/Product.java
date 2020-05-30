@@ -6,6 +6,10 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+/**
+ * @author Aleksey Bykov
+ * @since 19.10.2019
+ */
 @Getter
 @Builder
 @NoArgsConstructor

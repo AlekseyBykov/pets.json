@@ -7,6 +7,10 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
+/**
+ * @author Aleksey Bykov
+ * @since 18.10.2019
+ */
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor

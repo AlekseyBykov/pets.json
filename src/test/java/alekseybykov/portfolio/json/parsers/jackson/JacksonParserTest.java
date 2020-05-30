@@ -18,6 +18,10 @@ import static org.hamcrest.collection.IsCollectionWithSize.hasSize;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
+/**
+ * @author Aleksey Bykov
+ * @since 18.10.2019
+ */
 @DisplayName("Tests for parsing JSON by using Jackson library")
 class JacksonParserTest {
 

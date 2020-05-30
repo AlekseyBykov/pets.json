@@ -18,6 +18,10 @@ import java.util.Arrays;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+/**
+ * @author Aleksey Bykov
+ * @since 18.10.2019
+ */
 @DisplayName("Tests for parsing JSON by using Gson library")
 class GsonParserTest {
 
